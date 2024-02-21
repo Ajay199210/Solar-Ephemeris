@@ -38,8 +38,16 @@
 }
 
 /* Custom CSS */
+body {
+  background-color: whitesmoke;
+}
+
 h1 {
   color: darkcyan;
+  font-style: italic;
+}
+
+h3 {
   font-style: italic;
 }
 
@@ -75,8 +83,10 @@ button:hover {
   padding: 15px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  border: 1px solid darkcyan;
   border-radius: 10px;
   background: rgb(34,193,195);
   background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgb(50, 50, 50) 100%);

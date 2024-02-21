@@ -1,10 +1,24 @@
+# Éphémérides solaires
+
+Les formules utilisées pour calculer les éphémérides solaires sont expliquées dans ce livre :
+https://archive.org/details/astronomicalalgorithmsjeanmeeus1991/page/n7/mode/2up
+
+Vous pouvez télécharger le module JavaScript à cette adresse URL :
+https://github.com/geocot/mecaniqueCelesteSoleil
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+*If you don't have Node.js installed, you can check the following link:*
+*https://docs.npmjs.com/downloading-and-installing-node-js-and-npm*
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+Install required dependencies (before you start/run the app)
 
 ### `npm start`
 

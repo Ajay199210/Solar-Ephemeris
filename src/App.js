@@ -45,7 +45,7 @@ class App extends Component {
         villes: villes
       });
     } else {
-      alert("La ville de " + this.state.ville.nom + " est déjà ajoutée")
+        alert("La ville de " + this.state.ville.nom + " est déjà ajoutée")
     }
   }
 
